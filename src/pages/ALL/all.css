@@ -1,0 +1,38 @@
+.wrapper-all {
+    max-width: 1440px;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1174px;
+    background-color: bisque;
+}
+.sidebar {
+    width: 28.5%;
+    height: 1174px;
+    background-color: white;
+}
+.all-pokemons {
+    width: 31.%;
+}
+
+.divider {
+    height: 1174px;
+    width: 6px;
+    background-color: black;
+    position: relative;
+    left: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.round {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 6px solid #000000;
+    transform: translateX(-20px);
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
